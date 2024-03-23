@@ -1,0 +1,33 @@
+body {
+  background-color: aliceblue;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 40px;
+}
+.feelings-label,
+.zipcode-label {
+  font-weight: bolder;
+}
+.btn-generate {
+  padding: 10px 30px;
+  font-weight: bold;
+  border: 0.5px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: blueviolet;
+}
+
+.header-title {
+  text-align: center;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+.holder {
+  background-color: blanchedalmond;
+  padding: 10px;
+}
